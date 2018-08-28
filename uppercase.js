@@ -5,9 +5,9 @@ let str=(input)=>{
   for(let i=0;i<a.length;i++)
     {
       if(a[i]==a[i].toUpperCase())
-        a[i]=a[i].toUpperCase();
+        a[i]=a[i].toLowerCase();
       else
-         a[i]=a[i].toLowerCase();}
+         a[i]=a[i].toUpperCase();}
   console.log(a.join(''));
     }
   str('tHE qUICK bROWN fOX')
