@@ -1,3 +1,7 @@
+/*. Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the result. 
+Sample numbers : 0, -1, 4 
+Output : 4, 0, -1 */
+
 let sign=(a,b,c)=>{
   let arr=Array.of(a,b,c);
   for(let j=0;j<arr.length;j++)
