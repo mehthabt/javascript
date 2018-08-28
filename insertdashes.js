@@ -2,7 +2,7 @@
 
 let dash=(input)=>{
   
-  let arr1=Array.from(input.toString());
+  let arr1=Array.from(input);
   console.log(arr1)
   let i;
   let j;
@@ -15,6 +15,6 @@ let dash=(input)=>{
     }
   console.log(arr1.join(''));
 }
-dash(025468);
+dash("025468");
 
 
