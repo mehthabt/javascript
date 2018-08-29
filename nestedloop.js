@@ -16,7 +16,7 @@ let nest=(input)=>{
   
    for(let i=0;i<input.length;++i){
     console.log("row"+i);
-    for(let j=0;j<input.length;++j){
+    for(let j=0;j<input[i].length;++j){
 
     console.log(input[i][j]);
     
